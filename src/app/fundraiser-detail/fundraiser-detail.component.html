@@ -1,1 +1,9 @@
-<h1>Fundraiser</h1>
+<h2>{{(fundraiserToDisplay | async)?.title}}</h2>
+
+<h3>{{(fundraiserToDisplay | async)?.organizer}}</h3>
+
+<h4>${{(fundraiserToDisplay | async)?.currentFunding}} out of ${{(fundraiserToDisplay | async)?.goal}}</h4>
+
+<p>
+  {{(fundraiserToDisplay | async)?.story}}
+</p>
