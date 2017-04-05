@@ -6,5 +6,6 @@ export class Fundraiser {
               public goal: number,
               public currentFunding: number,
               public story: string,
+              public photoKey: string,
               public contributions: Contribution[]){}
 }

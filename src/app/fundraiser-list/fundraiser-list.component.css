@@ -1,4 +1,6 @@
 fundraiser-tile {
   width: 30%;
   margin: 1%;
+  background-color: white;
+  border-radius: 3px 3px;
 }

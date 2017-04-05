@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { FundraiserListComponent } from './fundraiser-list/fundraiser-list.component';
 import { FundraiserTileComponent } from './fundraiser-tile/fundraiser-tile.component';
+import { FundraiserDetailComponent } from './fundraiser-detail/fundraiser-detail.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -23,7 +24,8 @@ export const firebaseConfig = {
     AppComponent,
     HomeComponent,
     FundraiserListComponent,
-    FundraiserTileComponent
+    FundraiserTileComponent,
+    FundraiserDetailComponent
   ],
   imports: [
     BrowserModule,

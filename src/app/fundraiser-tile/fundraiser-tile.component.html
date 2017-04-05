@@ -1,5 +1,5 @@
-<div class="fundraiser-tile">
-  <h3>{{fundraiser.title}}</h3>
-  <p><span class="current-funding">$ {{fundraiser.currentFunding}}</span> out of <span class="funding-goal">{{fundraiser.goal}}</span></p>
+<div class="content" >
+  <h3><a (click)="goToDetail(fundraiser)" >{{fundraiser.title}}</a></h3>
+  <p><span class="current-funding">${{fundraiser.currentFunding}}</span> out of <span class="funding-goal">${{fundraiser.goal}}</span></p>
   <p>{{fundraiser.story}}</p>
 </div>

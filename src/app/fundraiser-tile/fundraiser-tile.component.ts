@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Fundraiser } from '../fundraiser.model';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'fundraiser-tile',
@@ -9,9 +10,19 @@ import { Fundraiser } from '../fundraiser.model';
 export class FundraiserTileComponent implements OnInit {
   @Input() fundraiser: Fundraiser;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
+  }
+
+  convertToPhotoPath(fundraiser: Fundraiser): string {
+    var photoKey = fundraiser.photoKey;
+    var photoPath = "images/" + photoKey;
+    return photoPath;
+  }
+
+  goToDetail(clickedFundraiser: any) {
+    this.router.navigate(['fundraisers', clickedFundraiser.$key])
   }
 
 }
