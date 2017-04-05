@@ -1,8 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
-html, body {
-  background-color: #94dee2;
-}
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
 
 body {
-  background-color: yellow;
+  background-color: #94dee2;
 }
