@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Fundraiser } from '../fundraiser.model';
 
 @Component({
   selector: 'fundraiser-tile',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fundraiser-tile.component.css']
 })
 export class FundraiserTileComponent implements OnInit {
+  @Input() fundraiser: Fundraiser;
 
   constructor() { }
 

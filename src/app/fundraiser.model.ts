@@ -1,3 +1,5 @@
+import { Contribution } from './contribution.model';
+
 export class Fundraiser {
   constructor(public title: string,
               public organizer: string,
