@@ -1,0 +1,17 @@
+{ "fundraisers": [{
+    "title": "Cabrador: Uber, but with Dogs",
+    "organizer": "Caitlyn Hines",
+    "goal": 5000,
+    "currentFunding": 0,
+    "story": "My second group project at Epicodus was making a version of Uber where each driver would be accompanied by a dog.  I think this is a great idea, and would like to see it happen!  I will need to take some time without work to develop the project and learn how to make Android apps, and I will need to fund server and hosting costs.",
+    "contributions": [{
+      "name": "Allie",
+      "amount": 50,
+      "comment": "I loved your project, good luck!"
+      }, {
+      "name": "Tammy",
+      "amount": 10,
+      "comment": "Wish I could contribute more!"
+      }]
+  }]
+}
