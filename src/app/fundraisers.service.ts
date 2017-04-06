@@ -16,6 +16,10 @@ export class FundraisersService {
     return this.allFundraisers;
   }
 
+  addFundraiser(newFundraiser) {
+    this.allFundraisers.push(newFundraiser);
+  }
+
   getFundraiserById(fundraiserId: number) {
     return this.angularFire.database.object('fundraisers/' + fundraiserId);
   }

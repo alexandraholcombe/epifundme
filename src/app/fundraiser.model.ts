@@ -1,11 +1,11 @@
 import { Contribution } from './contribution.model';
 
 export class Fundraiser {
+  public currentFunding: number = 0;
+  public contributions: Contribution[] = [];
+
   constructor(public title: string,
               public organizer: string,
               public goal: number,
-              public currentFunding: number,
-              public story: string,
-              public photoKey: string,
-              public contributions: Contribution[]){}
+              public story: string ){}
 }

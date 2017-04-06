@@ -15,11 +15,11 @@ export class FundraiserTileComponent implements OnInit {
   ngOnInit() {
   }
 
-  convertToPhotoPath(fundraiser: Fundraiser): string {
-    var photoKey = fundraiser.photoKey;
-    var photoPath = "images/" + photoKey;
-    return photoPath;
-  }
+  // convertToPhotoPath(fundraiser: Fundraiser): string {
+  //   var photoKey = fundraiser.photoKey;
+  //   var photoPath = "images/" + photoKey;
+  //   return photoPath;
+  // }
 
   goToDetail(clickedFundraiser: any) {
     this.router.navigate(['fundraisers', clickedFundraiser.$key])
