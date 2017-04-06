@@ -1,1 +1,7 @@
-<fundraiser-tile *ngFor="let fundraiser of allFundraisers | fundness: | async" [fundraiser]="fundraiser"></fundraiser-tile>
+<select (change)="onChange($event.target.value)">
+  <option value="incompleteFunding">Active Fundraisers</option>
+  <option value="completeFunding">Completed Fundraisers</option>
+  <option value="all" selected="selected">All Fundraisers</option>
+</select>
+
+<fundraiser-tile *ngFor="let fundraiser of allFundraisers | async | fundness:filterByFunding" [fundraiser]="fundraiser"></fundraiser-tile>

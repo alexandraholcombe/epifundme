@@ -8,14 +8,26 @@ import { FundraisersService } from './fundraisers.service';
 })
 
 export class FundnessPipe implements PipeTransform {
-  transform(input: any [], args) {
-
+  
+  transform(input: any [], desiredFunding) {
     var output: any[] = [];
-    for (var i = 0; i < input.length; i ++) {
-      if (input[i].goal <= 10000){
-        output.push(input[i]);
+    if(desiredFunding === "incompleteFunding") {
+      for(var i = 0; i < input.length; i++) {
+        if (input[i].currentFunding < input[i].goal) {
+          output.push(input[i]);
+        }
       }
+      return output;
+    } else if (desiredFunding === "completeFunding") {
+      for(var i = 0; i < input.length; i++) {
+        if (input[i].currentFunding >= input[i].goal) {
+          output.push(input[i]);
+        }
+      }
+      return output;
+    } else {
+      return input;
     }
-    return output;
   }
+
 }

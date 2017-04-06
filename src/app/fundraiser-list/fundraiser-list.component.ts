@@ -12,11 +12,16 @@ import { FundnessPipe } from '../fundness.pipe';
 })
 export class FundraiserListComponent implements OnInit {
   allFundraisers: FirebaseListObservable<any[]>;
+  filterByFunding: string = "all";
 
   constructor(private fundraisersService: FundraisersService){}
 
   ngOnInit() {
     this.allFundraisers = this.fundraisersService.getFundraisers();
+  }
+
+  onChange(optionFromMenu: string) {
+    this.filterByFunding = optionFromMenu;
   }
 
 }
