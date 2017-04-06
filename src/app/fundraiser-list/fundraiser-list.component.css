@@ -6,3 +6,8 @@ fundraiser-tile {
   padding: 1%;
     box-shadow: 3px 3px 3px rgba(105, 105, 105, 0.2);
 }
+
+.tiles {
+  display: flex;
+  flex-wrap: wrap;
+}

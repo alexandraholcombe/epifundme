@@ -14,19 +14,99 @@
       "comment": "Wish I could contribute more!"
       }]
   }, {
-      "title": "Cabrador: Uber, but with Dogs",
-      "organizer": "Caitlyn Hines",
-      "goal": 5000,
+      "title": "Baby Whisperer: Soothing Crib Mat",
+      "organizer": "Larry Eby",
+      "goal": 10000,
       "currentFunding": 0,
-      "story": "My second group project at Epicodus was making a version of Uber where each driver would be accompanied by a dog.  I think this is a great idea, and would like to see it happen!  I will need to take some time without work to develop the project and learn how to make Android apps, and I will need to fund server and hosting costs.",
+      "story": "I have recently become a new father, and have devised a crazy idea to soothe the baby in her crib.  It may be crazy because I came up with it at 3 in the morning while trying to soothe the baby, but it may be crazy enough to work!  I would like to invent a vibrating crib mat to help lull the baby to sleep.  Perhaps we will then both get some rest.",
       "contributions": [{
-        "name": "Allie",
-        "amount": 50,
-        "comment": "I loved your project, good luck!"
+        "name": "Melvin",
+        "amount": 20,
+        "comment": "Looking forward to it for paternity reasons"
         }, {
-        "name": "Tammy",
-        "amount": 10,
-        "comment": "Wish I could contribute more!"
+        "name": "Katy",
+        "amount": 15,
+        "comment": "Sounds weird, but whatever."
         }]
-    }]
+    },
+    {
+        "title": "Shopper Hopper: Grocery Shopping Robot",
+        "organizer": "Katy Daviscourt",
+        "goal": 500000,
+        "currentFunding": 0,
+        "story": "I want to invent something to help me keep food stocked in my house.  I want it to notice when we're low on something and automatically create a grocery list, then order those items and have them delivered.  I also want to be able to tell it to order new items when I ask it to.  It should also be able to dance.  I've never built a robot before, so I'll need lots of funding for all of the mistakes I'm going to make.",
+        "contributions": [{
+          "name": "Renee",
+          "amount": 6,
+          "comment": "I don't think I'll need this."
+          }, {
+          "name": "Caitlyn",
+          "amount": 1000,
+          "comment": "I'm hungry."
+          }]
+      },
+      {
+          "title": "Seattle Bottle-Opening Keychain",
+          "organizer": "Trevor Daviscourt",
+          "goal": 2000,
+          "currentFunding": 0,
+          "story": "I want to make a bottle opener that looks like the Seattle area.  Because it's shaped like a bottle opener.",
+          "contributions": [{
+            "name": "Derek",
+            "amount": 20,
+            "comment": "I like opening bottles."
+            }, {
+            "name": "",
+            "amount": 1000,
+            "comment": "I'm hungry."
+            }]
+        },
+        {
+            "title": "Weight-Aholics",
+            "organizer": "Melvin Gruschow",
+            "goal": 25000,
+            "currentFunding": 0,
+            "story": "I'm opening a gym for weight-aholics, like me.  Give me money.",
+            "contributions": [{
+              "name": "Nick",
+              "amount": 2000,
+              "comment": "I'm down."
+              }, {
+              "name": "Jiwon",
+              "amount": 50,
+              "comment": "I want to get in shape."
+              }]
+          },
+          {
+              "title": "Better Autocorrect",
+              "organizer": "Jiwon Kang",
+              "goal": 1000,
+              "currentFunding": 0,
+              "story": "I would like to improve my phone's autocorrect.  I don't like when it changes my last name to 'Kangaroo.'",
+              "contributions": [{
+                "name": "Cassie",
+                "amount": 100,
+                "comment": "I love it!"
+                }, {
+                "name": "Kaz",
+                "amount": 20,
+                "comment": "LOL"
+                }]
+            },
+            {
+                "title": "Trip to the Moon",
+                "organizer": "Cassie Musolf",
+                "goal": 58000000,
+                "currentFunding": 0,
+                "story": "I want to go to the moon!",
+                "contributions": [{
+                  "name": "Keely",
+                  "amount": 10,
+                  "comment": "Take a selfie!"
+                  }, {
+                  "name": "Nick",
+                  "amount": 1000,
+                  "comment": "I'm loaded, go to the moon!"
+                  }]
+              }]
 }

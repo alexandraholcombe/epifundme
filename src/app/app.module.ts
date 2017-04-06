@@ -15,6 +15,7 @@ import { StoryUpdatesComponent } from './story-updates/story-updates.component';
 import { AdminComponent } from './admin/admin.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { FundingStatusComponent } from './funding-status/funding-status.component';
+import { FundnessPipe } from './fundness.pipe';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -33,7 +34,8 @@ export const firebaseConfig = {
     StoryUpdatesComponent,
     AdminComponent,
     SidebarComponent,
-    FundingStatusComponent
+    FundingStatusComponent,
+    FundnessPipe
   ],
   imports: [
     BrowserModule,
