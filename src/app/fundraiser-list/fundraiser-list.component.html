@@ -1,1 +1,1 @@
-<fundraiser-tile *ngFor="let fundraiser of allFundraisers | async" [fundraiser]="fundraiser"></fundraiser-tile>
+<fundraiser-tile *ngFor="let fundraiser of allFundraisers | fundness: | async" [fundraiser]="fundraiser"></fundraiser-tile>

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Fundraiser } from '../fundraiser.model';
 import { AngularFire, FirebaseListObservable } from 'angularfire2';
 import { FundraisersService } from '../fundraisers.service';
+import { FundnessPipe } from '../fundness.pipe';
 
 @Component({
   selector: 'fundraiser-list',
