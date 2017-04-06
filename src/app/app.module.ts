@@ -13,6 +13,8 @@ import { FundraiserTileComponent } from './fundraiser-tile/fundraiser-tile.compo
 import { FundraiserDetailComponent } from './fundraiser-detail/fundraiser-detail.component';
 import { StoryUpdatesComponent } from './story-updates/story-updates.component';
 import { AdminComponent } from './admin/admin.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { FundingStatusComponent } from './funding-status/funding-status.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -29,7 +31,9 @@ export const firebaseConfig = {
     FundraiserTileComponent,
     FundraiserDetailComponent,
     StoryUpdatesComponent,
-    AdminComponent
+    AdminComponent,
+    SidebarComponent,
+    FundingStatusComponent
   ],
   imports: [
     BrowserModule,

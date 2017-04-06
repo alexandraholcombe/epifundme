@@ -4,4 +4,5 @@ fundraiser-tile {
   margin: 1%;
   border-radius: 8px 8px;
   padding: 1%;
+    box-shadow: 3px 3px 3px rgba(105, 105, 105, 0.2);
 }

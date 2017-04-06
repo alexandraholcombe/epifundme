@@ -1,0 +1,22 @@
+.funding-status {
+  background-color: white;
+  border-radius: 8px 8px;
+  padding: 3%;
+  margin-left: 10px;
+  width: 100%;
+  box-shadow: 3px 3px 3px rgba(105, 105, 105, 0.2);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.goal {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.goal strong {
+  font-size: 28px;
+  font-weight: bold;
+}

@@ -1,7 +1,11 @@
-<h2>{{(fundraiserToDisplay | async)?.title}}</h2>
+<div class="fundraiser-detail col-md-7">
+  <h2>{{(fundraiserToDisplay | async)?.title}}</h2>
 
-<h3>{{(fundraiserToDisplay | async)?.organizer}}</h3>
+  <h3>{{(fundraiserToDisplay | async)?.organizer}}</h3>
 
-<h4>${{(fundraiserToDisplay | async)?.currentFunding}} out of ${{(fundraiserToDisplay | async)?.goal}}</h4>
+  <h4>${{(fundraiserToDisplay | async)?.currentFunding}} out of ${{(fundraiserToDisplay | async)?.goal}}</h4>
 
-<story-updates></story-updates>
+  <story-updates></story-updates>
+</div>
+
+<app-sidebar class="col-md-4"></app-sidebar>

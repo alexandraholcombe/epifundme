@@ -1,0 +1,9 @@
+<div class="funding-status">
+    <h2 class="goal"><strong>${{(fundraiser | async)?.currentFunding}}</strong> of ${{(fundraiser | async)?.goal}}</h2>
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" attr.aria-valuenow="{{(fundraiser | async)?.currentFunding}}"
+      aria-valuemin="0" [attr.aria-valuemax]="fundraiser.goal" style="width:70%">
+      </div>
+    </div>
+    <button type="button" class="btn btn-block btn-lg btn-primary">Donate Now</button>
+  </div>
